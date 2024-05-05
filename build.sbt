@@ -2,7 +2,7 @@ import sbt.Keys.{publish, publishMavenStyle}
 import xerial.sbt.Sonatype.GitHubHosting
 import Path.relativeTo
 
-ThisBuild / scalaVersion := "2.13.2"
+ThisBuild / scalaVersion := "2.13.14"
 ThisBuild / organization := "de.martinpallmann.gchat"
 ThisBuild / organizationName := "Martin Pallmann"
 ThisBuild / startYear := Some(2020)
