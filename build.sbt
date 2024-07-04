@@ -10,7 +10,7 @@ ThisBuild / licenses := Seq(License.apache2)
 Global / onChangedBuildSource := ReloadOnSourceChanges
 publish / skip := true
 
-def circeVersion = "0.13.0"
+def circeVersion = "0.14.9"
 def http4sVersion = "0.21.4"
 
 lazy val commonSettings = Seq(
